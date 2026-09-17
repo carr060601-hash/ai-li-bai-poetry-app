@@ -1,0 +1,7 @@
+{
+  "name": "AI 李白詩詞小助手",
+  "description": "根據心情或關鍵字智慧推薦李白經典詩詞，顯示詩名、詩句、白話文解釋與推薦原因，呈現中國古典雅緻風韻。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

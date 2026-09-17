@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Noto Serif TC', 'Songti TC', 'STSong', serif;
+  }
+}
+
+.font-calligraphy {
+  font-family: 'Ma Shan Zheng', 'Kaiti TC', 'KaiTi', cursive, serif;
+}
+
+.font-serif-tc {
+  font-family: 'Noto Serif TC', 'Songti TC', 'STSong', serif;
+}
+
+/* Classical vertical text orientation for traditional scroll aesthetic */
+.writing-vertical {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+
+/* Paper texture and subtle ink borders */
+.bg-parchment {
+  background-color: #F7F3E9;
+  background-image: radial-gradient(#E8DFD0 0.75px, transparent 0.75px), radial-gradient(#E8DFD0 0.75px, #F7F3E9 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
+.ink-border {
+  border-color: #3D352E;
+}
